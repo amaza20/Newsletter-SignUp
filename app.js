@@ -63,5 +63,5 @@ app.post("/", function(request,response){
 
 
 app.listen(process.env.PORT || 3000,function() {
-    console.log("Servidor escuchando en el puerto 3000");
+    console.log("Servidor escuchando en el puerto 3000, o otro que diga la maquina.");
 })
